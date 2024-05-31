@@ -3,7 +3,7 @@
   <groupId>mainSongPrj</groupId>
   <artifactId>mainSongPrj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
    <properties>
 		<java-version>11</java-version>
 		<org.springframework-version>5.0.7.RELEASE</org.springframework-version>
@@ -224,7 +224,7 @@
 		</dependency>
     
 	</dependencies>
-    <build>
+     <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -238,20 +238,10 @@
           <showDeprecation>true</showDeprecation>
         </configuration>
       </plugin>
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.0</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.prj.MainApplication</mainClass> <!-- Update this line with your main class -->
-            </manifest>
-          </archive>
-        </configuration>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
       </plugin>
     </plugins>
   </build>
