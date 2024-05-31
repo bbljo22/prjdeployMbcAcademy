@@ -3,7 +3,7 @@
   <groupId>mainSongPrj</groupId>
   <artifactId>mainSongPrj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
    <properties>
 		<java-version>11</java-version>
 		<org.springframework-version>5.0.7.RELEASE</org.springframework-version>
