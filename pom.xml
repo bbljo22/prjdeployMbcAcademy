@@ -248,7 +248,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.prj.MainApplication</mainClass>
+              <mainClass>com.prj.MainApplication</mainClass> <!-- Update this line with your main class -->
             </manifest>
           </archive>
         </configuration>
